@@ -1,10 +1,22 @@
-# Python program
+# MesonWrap-UI
 
 ## About
 
 * * *
 
-Add info about this app here.
+Meson Wrap-UI is a lightweight and developer-friendly GUI that
+provides a simplistic way to interact with the venerable Meson
+build systems Wrap tool package utility, it is also a
+cross-platform application meaning it can run on most common host
+systems, and it's the first GUI program built to make upstream
+packaging a piece of cake.
+
+The main design goals of Meson Wrap-UI is to provide a standalone
+portable GUI and allow the users of the Meson build system to access
+all or most of Meson WrapDB tool features with minimal effort.
+
+How would you prefer to make your wrap packages? From a GUI or the
+command-line.
 
 ## Program Preview
 
@@ -39,7 +51,7 @@ python3 setup.py install
 And finally we run this cool application:
 
 ```console
-prog
+mesonwrap-ui
 ```
 
 ## Contact the developer
