@@ -10,18 +10,18 @@ from setuptools import setup
 
 if __name__ == '__main__':
     setup(
-        name='prog',
+        name='mesonwrap-ui',
         version='0.1.0',
         author='Michael Brockus',
         license='Apache 2',
-        url='https://github.com/michaelbrockus/python_pypi_program',
+        url='https://github.com/michaelbrockus/mesonwrap-ui',
         packages=[
             'code'
         ],
         python_requires='>=3.8',
         entry_points={
             'console_scripts': [
-                'prog=code.main:main_prog',
+                'mesonwrap-ui=code.main:main_prog',
             ],
         }
     )
